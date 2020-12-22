@@ -24,4 +24,6 @@ int main()
   std::cout << std::endl;
   std::cout << "The product of the codes is" << product;
   return 0;
+
+  //hahdi comments
 }
