@@ -10,11 +10,11 @@ int main()
   
   // Declare 3 number code
   std::cout << std::endl;
-  int CodeA = 6;
-  int CodeB = 2;
-  int CodeC = 9;
-  int CodeSum = CodeA + CodeB + CodeC;
-  int CodeProduct = CodeA * CodeB * CodeC;
+  const int CodeA = 1;
+  const int CodeB = 2;
+  const int CodeC = 3;
+  const int CodeSum = CodeA + CodeB + CodeC;
+  const int CodeProduct = CodeA * CodeB * CodeC;
   
   // Print results
   std::cout << std::endl;
@@ -28,6 +28,17 @@ int main()
   std::cin >> GuessC;
   std::cout << "You entered:  " << GuessA << GuessB << GuessC << std::endl;
 
+  int GuessSum = GuessA + GuessB + GuessC;
+  int GuessProduct = GuessA + GuessB + GuessC;
+
+  if (GuessSum == CodeSum && GuessProduct == CodeProduct)
+  {
+    std::cout << "The sacred spirits are pleased and have unlocked the door for your correct answer.";
+  }
+  else
+  {
+    std::cout << "The sacred spirits look down upon you for your stupidity, you lose.";
+  }
   return 0;
 
   //hahdi comments
