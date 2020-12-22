@@ -10,19 +10,24 @@ int main()
   
   // Declare 3 number code
   std::cout << std::endl;
-  int a = 6;
-  int b = 2;
-  int c = 9;
-  int sum = a + b + c;
-  int product = a * b * c;
+  int CodeA = 6;
+  int CodeB = 2;
+  int CodeC = 9;
+  int CodeSum = CodeA + CodeB + CodeC;
+  int CodeProduct = CodeA * CodeB * CodeC;
   
   // Print results
   std::cout << std::endl;
-  std::cout << "There are 3 numbers in the code!";
-  std::cout << std::endl;
-  std::cout << "The sum of the codes is" << sum;
-  std::cout << std::endl;
-  std::cout << "The product of the codes is" << product;
+  std::cout << "There are 3 numbers in the code!" << std::endl;
+  std::cout << "The sum of the codes is: " << CodeSum << std::endl;
+  std::cout << "The product of the codes is: " << CodeProduct << std::endl;
+
+  int GuessA, GuessB, GuessC;
+  std::cin >> GuessA;
+  std::cin >> GuessB;
+  std::cin >> GuessC;
+  std::cout << "You entered:  " << GuessA << GuessB << GuessC << std::endl;
+
   return 0;
 
   //hahdi comments
