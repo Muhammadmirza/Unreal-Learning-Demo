@@ -20,13 +20,10 @@ bool PlayGame (int Difficulty)
 
   std::cout << "\nThere are 3 numbers in the code!";
   std::cout << "\nThe sum of the codes is: " << CodeSum;
-  std::cout << "\nThe product of the codes is: " << CodeProduct;
+  std::cout << "\nThe product of the codes is: " << CodeProduct << std::endl;
 
   int GuessA, GuessB, GuessC;
-  std::cout << std::endl;
-  std::cin >> GuessA;
-  std::cin >> GuessB;
-  std::cin >> GuessC;
+  std::cin >> GuessA >> GuessB >> GuessC;
   std::cout << "You entered:  " << GuessA << GuessB << GuessC << std::endl;
 
   int GuessSum = GuessA + GuessB + GuessC;
@@ -57,7 +54,8 @@ int main()
       std::cin.clear(); // clears errors
       std::cin.ignore(); // discards the buffer
 
-      if (bLevelComplete) {
+      if (bLevelComplete) 
+      {
         ++LevelDifficulty; // increase the level difficulty
 
       }
