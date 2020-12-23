@@ -1,16 +1,22 @@
 #include <iostream>
 #include <ctime>
 
+
+//Add a comment here to explain what this functions does. Also explain why it accepts a parameter. Also explain if this function returns any types of value?
 void PrintIntroduction (int Difficulty)
 {
   std::cout << "\n\nWelcome to the trial of the sacred doors, this is trial number " << Difficulty;
   std::cout << "\nEnter the mystical code to unlock the door and move on to the next trial.\n";
 }
 
+
+//Add a comment here to explain what this functions does. Also explain why it accepts a parameter. Also explain if this function returns any type of value?
 bool PlayGame (int Difficulty)
 {
   PrintIntroduction (Difficulty);
 
+
+  // //Explain what is happening here.
   const int CodeA = rand() % Difficulty + Difficulty;
   const int CodeB = rand() % Difficulty + Difficulty;
   const int CodeC = rand() % Difficulty + Difficulty;
@@ -29,9 +35,11 @@ bool PlayGame (int Difficulty)
   std::cin >> GuessC;
   std::cout << "You entered:  " << GuessA << GuessB << GuessC << std::endl;
 
+  // //Have you doublechecked your code?
   int GuessSum = GuessA + GuessB + GuessC;
   int GuessProduct = GuessA + GuessB + GuessC;
 
+  // //Add a comment here to explain whats happening here?
   if (GuessSum == CodeSum && GuessProduct == CodeProduct)
   {
     std::cout << "\nThe sacred spirits are pleased and have unlocked the door to the next trial.";
