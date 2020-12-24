@@ -38,6 +38,20 @@ bool PlayGame (int Difficulty)
   int GuessSum = GuessA + GuessB + GuessC;
   int GuessProduct = GuessA * GuessB * GuessC;
 
+  // Checking each guess
+  if (CodeA == GuessA && CodeB == GuessB && CodeC == GuessC){
+    std::cout << "\nCode 1: " << bool(CodeA == GuessA);
+    std::cout << "\nCode 2: " << bool(CodeB == GuessB);
+    std::cout << "\nCode 3: " << bool(CodeC == GuessC);
+    return true;
+  }
+  else {
+    std::cout << "\nCode 1: " << bool(CodeA == GuessA);
+    std::cout << "\nCode 2: " << bool(CodeB == GuessB);
+    std::cout << "\nCode 3: " << bool(CodeC == GuessC);
+    return false;
+  }
+
 
 // Checks if player's guess is correct
   if (GuessSum == CodeSum && GuessProduct == CodeProduct)
