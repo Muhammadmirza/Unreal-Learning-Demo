@@ -53,7 +53,6 @@ bool PlayGame (int Difficulty)
 
 }
 
-
 /**
  * For the second part of this game. We want to add a life system in this game. 
  * We want to start with 3 lives and lose a life for every wrong answer.
@@ -70,15 +69,10 @@ bool PlayGame (int Difficulty)
  * 
  * Fourth part of this game. We want to maintain the same Codes for each level and session. Currently it keeps randomizing.
  * Hint read: srand()
- * 
- * 
- * 
- * 
  */
 
-
 int main() // Every code must include a main function and this is where we execute the central part of the code
-{
+{   
     srand(time(NULL)); // create new random sequence based on time of day
 
     int LevelDifficulty = 1; // initliazes the variable that will represent what level the player is currently on
