@@ -34,11 +34,12 @@ bool PlayGame (int Difficulty)
   std::cin >> GuessA >> GuessB >> GuessC;
   std::cout << "You entered:  " << GuessA << GuessB << GuessC << std::endl;
 
-  // Store's the sum and product of the player's guesses
+// Store's the sum and product of the player's guesses
   int GuessSum = GuessA + GuessB + GuessC;
   int GuessProduct = GuessA * GuessB * GuessC;
 
-  // Checks if player's guess is correct
+
+// Checks if player's guess is correct
   if (GuessSum == CodeSum && GuessProduct == CodeProduct)
   {
     std::cout << "\nThe sacred spirits are pleased and have unlocked the door to the next trial."; // this message will let the player know they have passed the curent round
@@ -82,17 +83,27 @@ int main() // Every code must include a main function and this is where we execu
 
     int LevelDifficulty = 1; // initliazes the variable that will represent what level the player is currently on
     int const MaxDifficulty = 5; // initiliazes the the variabe that sets the max number of levels in our game
+    int NumberOfTries = 3; // initializes the variable that determines the amount of lives a player has
 
-    while (LevelDifficulty <= MaxDifficulty) // Loops game until all levels are completed
+    while (LevelDifficulty <= MaxDifficulty && NumberOfTries >= 0) // Loops game until all levels are completed
    {
       bool bLevelComplete = PlayGame(LevelDifficulty); // Stores if the player has completed the level
       std::cin.clear(); // clears errors
       std::cin.ignore(); // discards the buffer
 
-      if (bLevelComplete) 
+      if (bLevelComplete == false) 
       {
-        ++LevelDifficulty; // increase the level difficulty
-
+        --NumberOfTries;
+        if (NumberOfTries <= 0){
+          std::cout << "\n\nThe spirits tire of your incompetence and refuse to let you try any further, get out of here NOW!\n\n";
+          return 0;
+        }
+        std::cout << "\n\nYou have lost one your tries at cracking the mystical code. You have " << NumberOfTries; 
+        std::cout << " lives left.\n\n";
+        }
+        else {
+      ++LevelDifficulty; // increase the level difficulty
+      std::cout << "\n\n You have pleased the sacred spirits, please carry onto the next trial.\n\n";
       }
   }
   std::cout << "\nYou have sucessfully made it through all 5 trials, congratulations for wasting your time because nothing lies behind these doors!\n";
