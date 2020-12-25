@@ -111,7 +111,7 @@ int main() // Every code must include a main function and this is where we execu
         }
         else {
       ++LevelDifficulty; // increase the level difficulty
-      NumberOfTries =-= 3;
+      NumberOfTries == 3;
       std::cout << "\n\n You have pleased the sacred spirits, please carry onto the next trial.\n\n";
       }
   }
