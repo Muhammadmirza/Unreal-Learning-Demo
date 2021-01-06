@@ -12,30 +12,38 @@ void UBullCowCartridge::BeginPlay() // When the game starts
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
-    if (bGameOver == true)
+    if (bGameOver)
     {
         ClearScreen();
         SetupGame();
     }
-    else
+    else // Checking PlayerGuess
     {
         if (Input == HiddenWord) // Checks if the player input matches the hiddenword
-     {
-        PrintLine(TEXT("You guessed the hidden word, congrats!")); // Prints winning message
+        {
+        PrintLine(TEXT("You win!")); // Prints winning message
         EndGame();
-    }
+        }
     else 
     {
-        if (Input.Len() != HiddenWord.Len()) // Checks if player's inputted word is the same length as the length of our hidden word
+        --Lives;
+        PrintLine(TEXT("You lost a life!")); 
+        PrintLine(TEXT("%i"), --Lives);
+        if (Lives > 0)
         {
-            PrintLine(TEXT("The hidden word is %i letters long! \nYou have lost :("), HiddenWord.Len()); // magic number
+            if (Input.Len() != HiddenWord.Len()) 
+             {
+                PrintLine(TEXT("Sorry try again, you have %i lives left."), Lives); 
+         }
+       }
+            else
+             {
+             PrintLine(TEXT("You have no lives left, loser :(")); 
             EndGame();
-        }
-     }
+              }
+         }
     }
-    
     // Check if its an isogram here
-    // Check if the right number of character are entered
     // Prompt to guess again
 
     // Remove Life Here
@@ -46,22 +54,19 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     // If No setup code to show game over
     // Prompt to play again
 }
-// The To Do List for this section
 
 void UBullCowCartridge::SetupGame()
 {
-
      // Player Introduction
     PrintLine(TEXT("Welcome to Bull Cows!")); // intro message to welcome player
 
     HiddenWord = TEXT("love"); // assigns our HiddenWord
-    Lives = 10 ;
+    Lives = HiddenWord.Len();
     bGameOver = false;
 
-    PrintLine(TEXT("Guess the %i letter word!"), HiddenWord.Len()); // magic number
-    PrintLine(TEXT("Type and enter your answer...")); // intro message to guide the player how to actually start the basic game loop
-
-    
+    PrintLine(TEXT("Guess the %i letter word!"), HiddenWord.Len()); 
+    PrintLine(TEXT("You have %i lives"), Lives);
+    PrintLine(TEXT("Type and enter your answer...")); 
 }
 
 void UBullCowCartridge::EndGame()
