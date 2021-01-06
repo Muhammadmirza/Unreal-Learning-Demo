@@ -4,31 +4,48 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
+
+    // Player Introduction
     PrintLine(TEXT("Welcome to Bull Cows!")); // intro message to welcome player
     PrintLine(TEXT("Guess the 4 letter word!")); // intro message in introduce how many letters make up the word, will be removed later!
     PrintLine(TEXT("Press enter to continue...")); // intro message to guide the player how to actually start the basic game loop
+    
+    // Setting up the game
+    HiddenWord = TEXT("love"); // assigns our HiddenWord
+
+    // Set Lives
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
     ClearScreen(); // clears the player input to make our game easier to read/clean
-    FString HiddenWord = TEXT("love"); // assignment of our isogram that the player has to guess (Remember to move outside this function!)
+
+    //Checking the Player Guess
     if (Input == HiddenWord)
      {
         PrintLine(TEXT("You guessed the hidden word, congrats!"));
     }
     else {
         PrintLine(TEXT("You are incorrect, try again!"));
-    }
 
+    
+    }
+    // Check if its an isogram here
+    // Check if the right number of character are entered
+    // Prompt to guess again
+
+    // Remove Life Here
+
+    // Check if Lives > 0 here
+    // If Yes setup code to play the game again
+    // Show lives left
+    // If No setup code to show game over
+    // Prompt to play again
 }
 // The To Do List for this section
 
-// Print a welcome message that welcomes the player and instructs them how to play our game
-// Set up a  HiddenWord for the player to guess, HiddenWord should be an isogram
-// Check if User's Input matches HiddenWord
 // Check if HiddenWord is an Isogram
-// Set up a life system for the player to start with
+// Set Life Systsem
 // Remove Life if guess is wrong
 // Display to the user how many lives they current have
 // Setup display messages to tell the user that for various possible reasons that there answer is stupid and to tell them to try again
