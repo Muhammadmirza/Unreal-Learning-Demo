@@ -4,13 +4,23 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
-    PrintLine("Welcome to Bull Cows!");
-    PrintLine("Press enter to continue...");
+    PrintLine(TEXT("Welcome to Bull Cows!")); // intro message to welcome player
+    PrintLine(TEXT("Guess the 4 letter word!")); // intro message in introduce how many letters make up the word, will be removed later!
+    PrintLine(TEXT("Press enter to continue...")); // intro message to guide the player how to actually start the basic game loop
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
 {
-    ClearScreen(); 
+    ClearScreen(); // clears the player input to make our game easier to read/clean
+    FString HiddenWord = TEXT("love"); // assignment of our isogram that the player has to guess (Remember to move outside this function!)
+    if (Input == HiddenWord)
+     {
+        PrintLine(TEXT("You guessed the hidden word, congrats!"));
+    }
+    else {
+        PrintLine(TEXT("You are incorrect, try again!"));
+    }
+
 }
 // The To Do List for this section
 
