@@ -33,7 +33,7 @@ void UBullCowCartridge::SetupGame()
 
     PrintLine(TEXT("Guess the %i letter word!"), HiddenWord.Len()); 
     PrintLine(TEXT("You have %i lives"), Lives);
-    PrintLine(TEXT("Type and enter your answer...")); 
+    PrintLine(TEXT("\nType and enter your answer...")); 
 }
 
 void UBullCowCartridge::EndGame()
@@ -48,24 +48,40 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
     {
         PrintLine(TEXT("You win!")); // Prints winning message
         EndGame();
+        return;
     }
-    else 
+
+    // Check if Isogram
+    if (!IsIsogram(Guess))
     {
-        PrintLine(TEXT("You lost a life!")); 
+        PrintLine(TEXT("You idiot that is NOT AN ISOGRAM!"));
+        return;
+    }
+
+    // Check Right Number of Characters
+     if (Guess.Len() != HiddenWord.Len()) 
+    {
         --Lives;
-        if (Lives > 0)
-        {
-            if (Guess.Len() != HiddenWord.Len()) 
-             {
-                PrintLine(TEXT("Sorry try again, you have %i lives left."), Lives); 
-         }
-       }
-            else
-             {
-             PrintLine(TEXT("You have no lives left, loser :(")); 
-            EndGame();
-              }
-         }
+        PrintLine(TEXT("You idiot, its %i letters long"), HiddenWord.Len());
+        PrintLine(TEXT("Try again, you have %i lives left."), Lives); 
+        return;
+     }
+
+     // Remove Life
+      PrintLine(TEXT("You lost a life!")); 
+      --Lives;
+
+      // Check if Lives > 0
+     if (Lives <= 0)
+    { 
+        ClearScreen();
+        PrintLine(TEXT("You have no lives left, loser :("));
+        PrintLine(TEXT("The hidden word was: %s"), *HiddenWord);
+        EndGame();
+        return;
+    }
+    // Shows the player Bulls and Cows
+    PrintLine(TEXT("Guess again you have %i lives left!"), Lives);
 }
 
 bool UBullCowCartridge::IsIsogram(FString Word)
