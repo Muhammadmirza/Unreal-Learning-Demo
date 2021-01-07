@@ -4,10 +4,9 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
+    SetupGame(); 
 
-    SetupGame(); // Setting up the game
-
-    PrintLine(TEXT("The HiddenWord is: %s."), *HiddenWord); // Debug Line, remove in final product
+    PrintLine(TEXT("The HiddenWord is: %s."), *HiddenWord); // Debug Line, comment out in final product
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
@@ -21,16 +20,6 @@ void UBullCowCartridge::OnInput(const FString& Input) // When the player hits en
     {
        ProcessGuess(Input);
     }
-    // Check if its an isogram here
-    // Prompt to guess again
-
-    // Remove Life Here
-
-    // Check if Lives > 0 here
-    // If Yes setup code to play the game again
-    // Show lives left
-    // If No setup code to show game over
-    // Prompt to play again
 }
 
 void UBullCowCartridge::SetupGame()
@@ -56,15 +45,14 @@ void UBullCowCartridge::EndGame()
 void UBullCowCartridge::ProcessGuess(FString Guess)
 {
      if (Guess == HiddenWord) // Checks if the player input matches the hiddenword
-        {
+    {
         PrintLine(TEXT("You win!")); // Prints winning message
         EndGame();
-        return;
-        }
+    }
     else 
     {
         PrintLine(TEXT("You lost a life!")); 
-        PrintLine(TEXT("%i"), --Lives);
+        --Lives;
         if (Lives > 0)
         {
             if (Guess.Len() != HiddenWord.Len()) 
@@ -79,3 +67,8 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
               }
          }
 }
+
+bool UBullCowCartridge::IsIsogram(FString Word)
+{
+    return true;
+} 
