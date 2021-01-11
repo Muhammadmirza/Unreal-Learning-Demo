@@ -5,19 +5,13 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
+
+    Isograms = GetValidWords(Words);
+
     SetupGame(); 
 
-    PrintLine(TEXT("The number of possible words is %i"), Words.Num());
-    PrintLine(TEXT("The HiddenWord is: %s."), *HiddenWord); // Debug Line, comment out in final product
-
-    for (int32 Index = 0; Index < 10; Index++)
-    {
-        if (Words[Index].Len() >= 4 && Words[Index].Len()<=8)
-        {
-           PrintLine(TEXT("%s"), *Words[Index]);
-        }
-    }
-    
+    // PrintLine(TEXT("The number of possible words is %i"), Words.Num());
+    // PrintLine(TEXT("The number of valid words is %i."), GetValidWords(Words).Num());
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
@@ -38,13 +32,14 @@ void UBullCowCartridge::SetupGame()
      // Player Introduction
     PrintLine(TEXT("Welcome to Bull Cows!")); // intro message to welcome player
 
-    HiddenWord = TEXT("love"); // assigns our HiddenWord
+    HiddenWord = Isograms[FMath::RandRange(0, Isograms.Num() - 1)]; // assigns our HiddenWord
     Lives = HiddenWord.Len();
     bGameOver = false;
 
     PrintLine(TEXT("Guess the %i letter word!"), HiddenWord.Len()); 
     PrintLine(TEXT("You have %i lives"), Lives);
     PrintLine(TEXT("\nType and enter your answer...")); 
+    PrintLine(TEXT("The HiddenWord is: %s."), *HiddenWord); // Debug Line, comment out in final product
 }
 
 void UBullCowCartridge::EndGame()
@@ -53,7 +48,7 @@ void UBullCowCartridge::EndGame()
     PrintLine(TEXT("Press enter to play game again."));
 }
 
-void UBullCowCartridge::ProcessGuess(FString Guess)
+void UBullCowCartridge::ProcessGuess(const FString& Guess)
 {
      if (Guess == HiddenWord) // Checks if the player input matches the hiddenword
     {
@@ -94,7 +89,7 @@ void UBullCowCartridge::ProcessGuess(FString Guess)
     PrintLine(TEXT("Guess again you have %i lives left!"), Lives);
 }
 
-bool UBullCowCartridge::IsIsogram(FString Word) const
+bool UBullCowCartridge::IsIsogram(const FString& Word) const
 {
     for (int32 Index = 0; Index < Word.Len(); Index++)
          { for (int32 Comparison = Index + 1; Comparison < Word.Len(); Comparison++)
@@ -107,3 +102,18 @@ bool UBullCowCartridge::IsIsogram(FString Word) const
         }
     return true;
 } 
+
+
+TArray<FString> UBullCowCartridge::GetValidWords(const TArray<FString>& WordList) const
+{
+    TArray<FString> ValidWords;
+
+    for (FString Word : WordList)
+    {
+        if (Word.Len() >= 4 && Word.Len() <= 8 && IsIsogram(Word))
+        {
+            ValidWords.Emplace(Word);
+        }
+    }
+        return ValidWords;
+}
