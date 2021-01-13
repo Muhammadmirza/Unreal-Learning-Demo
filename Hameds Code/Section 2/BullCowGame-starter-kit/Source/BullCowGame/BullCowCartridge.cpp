@@ -107,7 +107,6 @@ bool UBullCowCartridge::IsIsogram(const FString& Word) const
     return true;
 } 
 
-
 TArray<FString> UBullCowCartridge::GetValidWords(const TArray<FString>& WordList) const
 {
     TArray<FString> ValidWords;
@@ -126,9 +125,6 @@ void UBullCowCartridge::GetBullCows(const FString& Guess, int32& BullCount, int3
 {
     BullCount = 0;
     CowCount = 0;
-
-    // for every index  Guess  the same as the index HiddenWord, then BullCount++
-    // if not a Bull, was it a cow? if yes CowCount++
 
     for (int32 GuessIndex = 0; GuessIndex < Guess.Len(); GuessIndex++)
     {
