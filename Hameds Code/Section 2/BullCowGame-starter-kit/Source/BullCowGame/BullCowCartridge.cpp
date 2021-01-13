@@ -144,3 +144,11 @@ void UBullCowCartridge::GetBullCows(const FString& Guess, int32& BullCount, int3
        }
     }
 }
+
+// Extra Ideas to potentially add to finished code
+// Difficulty/Levels?
+// A way to return to the player the placements of the Bulls and Cows of there inputted word
+// Possibly a menu?
+// Hints?
+// A win streak counter?
+// 

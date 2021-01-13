@@ -1,0 +1,7 @@
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\MyProject\Source\MyProject\MyProjectGameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\MyProjectGameModeBase.generated.h
