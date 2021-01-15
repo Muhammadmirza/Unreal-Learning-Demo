@@ -581,3 +581,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.13-21.28.11:165][992]Writing project files...
 [2021.01.13-21.28.11:165][992]Writing project files... 100%
 [2021.01.13-21.28.13:293][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.13-21.33.19:848][903]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.13-21.33.19:848][903]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-21.34.04:192][ 36]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-21.34.05:645][ 40]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-21.34.06:390][ 42]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.13-21.34.06:390][ 42]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-21.44.20:508][874]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.13-21.44.20:508][874]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-22.12.06:779][862]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-22.12.07:024][863]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-22.12.08:405][867]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-22.12.08:759][868]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.13-22.12.08:759][868]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.13-22.12.09:063][869]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
