@@ -29,8 +29,10 @@ void UWorldPosition::BeginPlay()
 	// UE_LOG(LogTemp, Warning, TEXT("%s"), **PrtLog); //Prints Log message in UE Output Log in Yellow Text, ** means its dereferencing and using the overloaded operator
 	
 	FString ObjectName = GetOwner()->GetName();
-
 	UE_LOG(LogTemp, Warning, TEXT("Object name is: %s"), *ObjectName);
+
+	FString ObjectPosition = GetOwner()->GetActorLocation().ToString();
+	UE_LOG(LogTemp, Warning, TEXT("%s position in world is: %s"), *ObjectName, *ObjectPosition);
 }
 
 
