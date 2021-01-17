@@ -1,0 +1,5 @@
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape\Source\BuildingEscape/OpenDoor.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\OpenDoor.generated.h
