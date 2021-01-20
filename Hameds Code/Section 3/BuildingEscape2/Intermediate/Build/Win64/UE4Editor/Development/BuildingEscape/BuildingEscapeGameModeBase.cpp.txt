@@ -1,0 +1,7 @@
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\BuildingEscapeGameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\BuildingEscapeGameModeBase.generated.h

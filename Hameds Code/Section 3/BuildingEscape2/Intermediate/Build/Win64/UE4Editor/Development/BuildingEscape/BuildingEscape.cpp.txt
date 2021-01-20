@@ -1,0 +1,2 @@
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h
+C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\BuildingEscape.h
