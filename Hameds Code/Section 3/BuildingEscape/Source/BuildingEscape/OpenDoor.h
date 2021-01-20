@@ -31,9 +31,9 @@ private:
 	float InitialYaw;
 	float CurrentYaw;
 
-	UProperty(EditAnywhere);
+	UPROPERTY(EditAnywhere)
 	float TargetYaw = 90.f ;
 
-	UProperty(EditAnywhere);
+	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate; 
 };
