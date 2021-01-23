@@ -9452,3 +9452,1591 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.23-01.20.29:764][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
 [2021.01.23-01.20.30:056][956]LogSavePackage: Moving '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/NewMapD0F92E4342B8C777C99AFF8AB0D25F76.tmp' to '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Content/Levels/NewMap.umap'
 [2021.01.23-01.20.30:176][956]LogSavePackage: Moving '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/NewMap_BuiltData725CEB6441129262815D9883A5C3FF31.tmp' to '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Content/Levels/NewMap_BuiltData.uasset'
+[2021.01.23-01.25.42:445][254]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.23-01.36.48:797][ 59]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.23-01.36.48:798][ 59]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.23-01.36.50:310][152]Candidate modules for hot reload:
+[2021.01.23-01.36.50:310][152]  BuildingEscape
+[2021.01.23-01.36.50:311][152]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,8130 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-01.36.50:318][152]Warning: Starting HotReload took  0.0s.
+[2021.01.23-01.37.05:939][404]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 3:37:05 PM
+[2021.01.23-01.37.05:939][404]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-01.37.05:939][404]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-01.37.05:939][404]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-01.37.05:940][404]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 6.551016 seconds
+[2021.01.23-01.37.05:940][404]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-01.37.05:940][404]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-01.37.05:940][404]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-01.37.05:940][404]CompilerResultsLog:   [1/5] Grabber.cpp
+[2021.01.23-01.37.05:940][404]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2021.01.23-01.37.05:940][404]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-8130.lib
+[2021.01.23-01.37.05:940][404]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8130.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8130.exp
+[2021.01.23-01.37.05:941][404]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-8130.dll
+[2021.01.23-01.37.05:941][404]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8130.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-8130.suppressed.exp
+[2021.01.23-01.37.05:941][404]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-01.37.05:941][404]CompilerResultsLog: Total time in Parallel executor: 7.06 seconds
+[2021.01.23-01.37.05:941][404]CompilerResultsLog: Total execution time: 15.53 seconds
+[2021.01.23-01.37.05:941][404]LogMainFrame: MainFrame: Module compiling took 15.644 seconds
+[2021.01.23-01.37.05:975][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.01.23-01.37.05:975][404]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-01.37.06:013][404]LogClass: Could not find existing class Grabber in package /Script/BuildingEscape for HotReload, assuming new class
+[2021.01.23-01.37.06:027][404]LogHotReload: Re-instancing Grabber after hot-reload.
+[2021.01.23-01.37.06:188][404]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-01.37.06:189][404]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.01.23-01.37.06:196][404]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-01.37.06:259][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.01.23-01.37.06:260][404]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-01.37.06:278][404]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-01.37.06:279][404]Display: HotReload took 16.0s.
+[2021.01.23-01.37.06:936][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.23-01.37.07:046][449]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-01.37.07:061][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.37.07:061][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-01.37.07:061][449]PIE: New page: PIE session: NewMap (Jan 22, 2021, 3:37:07 PM)
+[2021.01.23-01.37.07:061][449]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-01.37.07:080][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018376s)
+[2021.01.23-01.37.07:080][449]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-01.37.07:081][449]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2021.01.23-01.37.07:081][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.019348s)
+[2021.01.23-01.37.07:152][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.01.23-01.37.07:169][449]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-01.37.07:178][449]LogInit: FAudioDevice initialized.
+[2021.01.23-01.37.07:209][449]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-01.37.07:211][449]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-20.37.07
+[2021.01.23-01.37.07:211][449]LogWorld: Bringing up level for play took: 0.001235
+[2021.01.23-01.37.07:223][449]LogTemp: Warning: Input component DefaultPawn_BP_C_0 found!
+[2021.01.23-01.37.07:223][449]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap 1.099
+[2021.01.23-01.37.07:223][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.13:464][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.13:465][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.44.13:491][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-01.44.13:492][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.13:534][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.44.13:539][319]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.01.23-01.44.13:574][322]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.01.23-01.44.14:376][386]Candidate modules for hot reload:
+[2021.01.23-01.44.14:376][386]  BuildingEscape
+[2021.01.23-01.44.14:376][386]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3849 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-01.44.14:383][386]Warning: Starting HotReload took  0.0s.
+[2021.01.23-01.44.23:297][471]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 3:44:23 PM
+[2021.01.23-01.44.23:298][471]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-01.44.23:298][471]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-01.44.23:298][471]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-01.44.23:298][471]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.925097 seconds
+[2021.01.23-01.44.23:298][471]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-01.44.23:299][471]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-01.44.23:299][471]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-3849.lib
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3849.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3849.exp
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-3849.dll
+[2021.01.23-01.44.23:299][471]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3849.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3849.suppressed.exp
+[2021.01.23-01.44.23:300][471]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-01.44.23:300][471]CompilerResultsLog: Total time in Parallel executor: 2.00 seconds
+[2021.01.23-01.44.23:300][471]CompilerResultsLog: Total execution time: 8.63 seconds
+[2021.01.23-01.44.23:300][471]LogMainFrame: MainFrame: Module compiling took 8.927 seconds
+[2021.01.23-01.44.23:330][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2021.01.23-01.44.23:331][471]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-01.44.23:382][471]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-01.44.23:383][471]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2021.01.23-01.44.23:390][471]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-01.44.23:466][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.01.23-01.44.23:467][471]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-01.44.23:482][471]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-01.44.23:483][471]Display: HotReload took  9.1s.
+[2021.01.23-01.44.41:846][583]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-01.44.41:862][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.41:863][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-01.44.41:863][583]PIE: New page: PIE session: NewMap (Jan 22, 2021, 3:44:41 PM)
+[2021.01.23-01.44.41:863][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-01.44.41:880][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017105s)
+[2021.01.23-01.44.41:880][583]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-01.44.41:880][583]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2021.01.23-01.44.41:881][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.018135s)
+[2021.01.23-01.44.41:951][583]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2021.01.23-01.44.41:969][583]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-01.44.41:978][583]LogInit: FAudioDevice initialized.
+[2021.01.23-01.44.42:010][583]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-01.44.42:012][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-20.44.42
+[2021.01.23-01.44.42:012][583]LogWorld: Bringing up level for play took: 0.001384
+[2021.01.23-01.44.42:024][583]LogTemp: Warning: Input component DefaultPawn_BP_C_0 found!
+[2021.01.23-01.44.42:024][583]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.1
+[2021.01.23-01.44.42:024][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.52:789][839]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.53:058][867]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.53:334][896]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.53:632][927]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:642][928]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:652][929]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:661][930]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:671][931]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:681][932]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.53:691][933]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:023][969]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:032][970]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:041][971]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:051][972]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:060][973]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:070][974]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:079][975]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:088][976]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:098][977]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:107][978]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:116][979]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:127][980]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:136][981]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:145][982]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:155][983]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:165][984]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:175][985]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:184][986]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:194][987]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:204][988]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:214][989]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:223][990]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:234][991]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:243][992]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:253][993]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:263][994]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:273][995]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:283][996]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:292][997]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:302][998]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:311][999]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:322][  0]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:330][  1]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:340][  2]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:350][  3]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:360][  4]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:371][  5]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:381][  6]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:389][  7]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:399][  8]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:409][  9]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:419][ 10]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:428][ 11]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:438][ 12]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:448][ 13]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:458][ 14]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:468][ 15]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:478][ 16]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:487][ 17]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:497][ 18]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:507][ 19]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:517][ 20]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:527][ 21]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:536][ 22]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:546][ 23]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:557][ 24]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.54:567][ 25]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.44.56:644][259]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:654][260]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:663][261]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:673][262]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:683][263]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:692][264]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:701][265]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:710][266]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:720][267]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:729][268]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:739][269]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.56:740][269]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:747][270]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:756][271]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:766][272]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:776][273]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:785][274]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:795][275]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:804][276]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:813][277]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:822][278]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:832][279]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:841][280]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:851][281]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:860][282]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:870][283]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:878][284]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:888][285]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:897][286]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:906][287]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:915][288]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:924][289]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:933][290]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:943][291]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:952][292]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:961][293]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:971][294]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:980][295]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:989][296]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.56:999][297]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:008][298]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:017][299]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:026][300]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:035][301]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:045][302]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:055][303]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:062][304]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:072][305]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:081][306]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:091][307]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:100][308]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:109][309]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:119][310]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:128][311]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:137][312]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:147][313]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:155][314]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:165][315]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:174][316]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:184][317]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:193][318]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:203][319]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:211][320]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:221][321]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:231][322]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:240][323]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:249][324]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:258][325]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:268][326]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:277][327]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.57:277][327]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:286][328]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:295][329]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:305][330]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:313][331]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:323][332]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:331][333]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:341][334]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:350][335]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:359][336]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:368][337]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:378][338]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:386][339]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:395][340]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:406][341]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:414][342]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:423][343]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:432][344]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:441][345]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:450][346]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:460][347]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:469][348]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:478][349]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:487][350]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:496][351]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:506][352]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:515][353]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:524][354]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:533][355]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:542][356]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:552][357]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:560][358]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:569][359]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:578][360]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:588][361]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:597][362]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:606][363]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:615][364]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:624][365]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:634][366]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:643][367]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:653][368]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:661][369]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:670][370]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:679][371]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:688][372]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:697][373]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:706][374]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:716][375]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:725][376]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:734][377]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:743][378]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:753][379]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:761][380]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:771][381]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:780][382]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:789][383]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:799][384]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:807][385]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:817][386]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:826][387]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:835][388]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:844][389]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:853][390]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:862][391]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:872][392]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:880][393]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:889][394]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:899][395]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:908][396]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:917][397]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:926][398]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:935][399]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:944][400]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:953][401]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:963][402]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:972][403]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:981][404]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:990][405]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.57:999][406]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:008][407]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:018][408]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:026][409]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:036][410]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:045][411]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:054][412]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:063][413]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:073][414]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:082][415]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:091][416]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:100][417]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:109][418]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:118][419]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:127][420]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:137][421]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:145][422]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:155][423]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:164][424]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:174][425]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:183][426]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:193][427]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:202][428]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:211][429]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:220][430]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:229][431]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:239][432]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:248][433]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:257][434]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.58:258][434]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:266][435]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:275][436]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:285][437]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:294][438]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:304][439]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:312][440]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:321][441]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:330][442]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:339][443]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:349][444]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:358][445]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:367][446]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:377][447]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:386][448]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:395][449]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:405][450]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:414][451]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:423][452]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:433][453]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:442][454]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:451][455]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:461][456]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.58:461][456]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:469][457]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:478][458]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:488][459]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:497][460]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:506][461]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:515][462]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:524][463]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:534][464]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:543][465]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:552][466]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:561][467]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:571][468]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:580][469]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:588][470]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:598][471]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:607][472]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:616][473]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:625][474]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:635][475]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:644][476]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:654][477]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:662][478]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:672][479]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:681][480]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:690][481]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:699][482]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:708][483]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:718][484]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:726][485]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:736][486]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:746][487]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:755][488]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:764][489]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:774][490]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:783][491]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:792][492]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:802][493]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:811][494]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:821][495]LogTemp: Warning: Grabber Press
+[2021.01.23-01.44.58:821][495]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:829][496]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:839][497]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:848][498]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:857][499]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:866][500]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:875][501]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:884][502]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:894][503]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:902][504]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:911][505]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:922][506]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:930][507]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:939][508]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:949][509]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:958][510]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:968][511]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:977][512]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.58:986][513]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-01.44.59:902][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.59:903][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.44.59:938][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-01.44.59:938][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.44.59:983][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.45.00:005][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.01.23-01.45.00:028][618]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.01.23-01.45.31:500][831]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-01.45.36:097][131]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.23-01.45.46:929][977]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.23-01.45.46:944][977]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.23-01.45.47:912][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.01.23-01.45.48:195][ 60]LogSavePackage: Moving '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/NewMap703C7F9D4E0A9549D16D19AF121CF797.tmp' to '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Content/Levels/NewMap.umap'
+[2021.01.23-01.45.48:307][ 60]LogSavePackage: Moving '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/NewMap_BuiltData2B0B08C5404C3B42D4EFEB9CCC26A9FD.tmp' to '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Content/Levels/NewMap_BuiltData.uasset'
+[2021.01.23-01.58.44:311][563]Candidate modules for hot reload:
+[2021.01.23-01.58.44:312][563]  BuildingEscape
+[2021.01.23-01.58.44:312][563]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,7619 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-01.58.44:319][563]Warning: Starting HotReload took  0.0s.
+[2021.01.23-01.58.52:801][217]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 3:58:52 PM
+[2021.01.23-01.58.52:801][217]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-01.58.52:802][217]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-01.58.52:802][217]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-01.58.52:802][217]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 5.093153 seconds
+[2021.01.23-01.58.52:802][217]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-01.58.52:802][217]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-01.58.52:803][217]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-7619.lib
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7619.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7619.exp
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-7619.dll
+[2021.01.23-01.58.52:803][217]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7619.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7619.suppressed.exp
+[2021.01.23-01.58.52:804][217]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-01.58.52:804][217]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2021.01.23-01.58.52:804][217]CompilerResultsLog: Total execution time: 8.41 seconds
+[2021.01.23-01.58.52:804][217]LogMainFrame: MainFrame: Module compiling took 8.505 seconds
+[2021.01.23-01.58.52:838][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.01.23-01.58.52:838][217]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-01.58.52:889][217]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-01.58.52:890][217]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2021.01.23-01.58.52:896][217]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-01.58.52:961][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.01.23-01.58.52:962][217]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-01.58.52:977][217]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-01.58.52:977][217]Display: HotReload took  8.7s.
+[2021.01.23-01.58.53:671][254]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-01.58.53:687][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.58.53:687][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-01.58.53:687][254]PIE: New page: PIE session: NewMap (Jan 22, 2021, 3:58:53 PM)
+[2021.01.23-01.58.53:688][254]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-01.58.53:694][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006660s)
+[2021.01.23-01.58.53:695][254]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-01.58.53:695][254]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2021.01.23-01.58.53:696][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.007886s)
+[2021.01.23-01.58.53:770][254]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2021.01.23-01.58.53:788][254]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-01.58.53:798][254]LogInit: FAudioDevice initialized.
+[2021.01.23-01.58.53:825][254]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-01.58.53:826][254]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-20.58.53
+[2021.01.23-01.58.53:827][254]LogWorld: Bringing up level for play took: 0.001085
+[2021.01.23-01.58.53:839][254]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.285
+[2021.01.23-01.58.53:839][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.58.54:752][326]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.58.55:169][361]LogTemp: Warning: Grabber Released
+[2021.01.23-01.58.55:575][396]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:587][397]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:600][398]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:612][399]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:624][400]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:637][401]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:649][402]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:661][403]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:674][404]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:686][405]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:700][406]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:715][407]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:728][408]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:741][409]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:754][410]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:767][411]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:779][412]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:791][413]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:803][414]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:815][415]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:827][416]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:840][417]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:852][418]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:864][419]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:876][420]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:889][421]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:902][422]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.58.55:902][422]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:913][423]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:925][424]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:937][425]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:950][426]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:961][427]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:973][428]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:986][429]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.55:998][430]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:010][431]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:023][432]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:035][433]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:046][434]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:058][435]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:072][436]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:084][437]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:096][438]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:110][439]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:122][440]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:134][441]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:146][442]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:159][443]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:171][444]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:183][445]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:195][446]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:207][447]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:219][448]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:232][449]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:243][450]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:255][451]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:267][452]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:279][453]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:291][454]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:304][455]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:316][456]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:329][457]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:342][458]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:354][459]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:366][460]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:378][461]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:391][462]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:403][463]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:414][464]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:428][465]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:441][466]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:454][467]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:466][468]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:478][469]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:489][470]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:502][471]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:514][472]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:526][473]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:538][474]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:551][475]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:563][476]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:575][477]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:587][478]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:599][479]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:611][480]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:623][481]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:635][482]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:647][483]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:659][484]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:672][485]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:684][486]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:697][487]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:709][488]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:721][489]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:734][490]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:746][491]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:759][492]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:771][493]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:783][494]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:795][495]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:807][496]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:819][497]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:831][498]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:842][499]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:854][500]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:865][501]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.56:877][502]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:185][623]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:196][624]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:207][625]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:219][626]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:231][627]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:242][628]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:253][629]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:265][630]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:276][631]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:288][632]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:301][633]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:313][634]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:324][635]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:336][636]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:347][637]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:360][638]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:371][639]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:383][640]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:395][641]LogTemp: Warning: Grabber Released
+[2021.01.23-01.58.58:395][641]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:408][642]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:419][643]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:431][644]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:443][645]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:456][646]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:468][647]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:480][648]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:492][649]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:503][650]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:515][651]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:527][652]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:539][653]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:550][654]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:563][655]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:574][656]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:586][657]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:598][658]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:610][659]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:623][660]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:635][661]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:647][662]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:659][663]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:672][664]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:684][665]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:696][666]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:709][667]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:721][668]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:733][669]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:745][670]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:757][671]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:770][672]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:782][673]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:794][674]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:806][675]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:819][676]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:832][677]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:843][678]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:856][679]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:869][680]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:881][681]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:893][682]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:905][683]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:917][684]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:930][685]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:942][686]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.58.58:955][687]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-01.59.00:109][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.00:110][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.59.00:144][789]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-01.59.00:144][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.00:184][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.59.00:208][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.01.23-01.59.00:231][790]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2021.01.23-01.59.04:869][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-01.59.05:840][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-01.59.05:855][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.05:855][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-01.59.05:856][ 23]PIE: New page: PIE session: NewMap (Jan 22, 2021, 3:59:05 PM)
+[2021.01.23-01.59.05:856][ 23]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-01.59.05:862][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006142s)
+[2021.01.23-01.59.05:862][ 23]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-01.59.05:863][ 23]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2021.01.23-01.59.05:863][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.007005s)
+[2021.01.23-01.59.05:896][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.01.23-01.59.05:913][ 23]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-01.59.05:922][ 23]LogInit: FAudioDevice initialized.
+[2021.01.23-01.59.05:953][ 23]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-01.59.05:954][ 23]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-20.59.05
+[2021.01.23-01.59.05:954][ 23]LogWorld: Bringing up level for play took: 0.001080
+[2021.01.23-01.59.05:967][ 23]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.157
+[2021.01.23-01.59.05:967][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.08:291][267]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.09:532][407]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.09:878][446]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.10:082][469]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.10:197][482]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.10:649][533]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.10:853][556]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.11:146][589]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.11:244][600]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.11:341][611]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.11:456][624]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.11:526][632]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.11:634][644]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.11:686][650]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.11:802][663]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.11:854][669]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.11:979][683]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.12:014][687]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.12:086][695]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.12:147][702]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.12:227][711]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.12:307][720]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.12:422][733]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.12:475][739]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.12:564][749]LogTemp: Warning: Grabber Pressed
+[2021.01.23-01.59.12:644][758]LogTemp: Warning: Grabber Released
+[2021.01.23-01.59.12:946][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.12:946][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.59.12:985][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-01.59.12:985][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-01.59.13:023][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-01.59.13:028][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.01.23-01.59.13:048][793]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2021.01.23-02.02.53:683][618]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-02.06.16:311][243]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.06.16:311][243]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.11.48:647][238]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.11.48:969][239]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.11.50:308][243]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.11.50:863][244]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.11.50:863][244]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.19.35:380][748]MapCheck: New page: Map Check
+[2021.01.23-02.19.35:399][748]Cmd: MAP REBUILD ALLVISIBLE
+[2021.01.23-02.19.35:399][748]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.01.23-02.19.35:451][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.01.23-02.19.35:465][748]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.23-02.19.35:472][748]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.23-02.19.35:476][748]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.23-02.19.35:482][748]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.23-02.19.35:495][748]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.01.23-02.19.36:513][748]LogShaderCompilers: Display: Shaders left to compile 30
+[2021.01.23-02.19.36:513][748]LogShaderCompilers: Display: Shaders left to compile 20
+[2021.01.23-02.19.36:513][748]LogShaderCompilers: Display: Shaders left to compile 10
+[2021.01.23-02.19.36:513][748]TextureStreamingBuild: Display: Compiling optional shaders took 1.054 seconds.
+[2021.01.23-02.19.36:525][748]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2021.01.23-02.19.36:541][748]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2021.01.23-02.19.36:572][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2021.01.23-02.19.36:572][748]LightingResults: New page: Lighting Build - Jan 22, 2021, 4:19:36 PM
+[2021.01.23-02.19.36:578][748]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.01.23-02.19.36:584][748]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.01.23-02.19.36:584][748]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.01.23-02.19.36:586][748]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.01.23-02.19.36:586][748]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9396
+[2021.01.23-02.19.41:141][748]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.01.23-02.19.41:142][748]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.01.23-02.19.41:142][748]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.01.23-02.19.41:142][748]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.01.23-02.19.41:142][748]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.01.23-02.19.41:142][748]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.01.23-02.19.41:242][748]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.01.23-02.19.41:242][748]MapCheck: New page: NewMap - Jan 22, 2021, 4:19:41 PM
+[2021.01.23-02.19.41:243][748]MapCheck: Warning: SM_Modern_Bed_2 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.41:243][748]MapCheck: Warning: SM_Modern_Sofa_8 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.41:243][748]MapCheck: Warning: SM_Coffee_Table_17 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.41:243][748]MapCheck: Warning: SM_Modern_Chair_23 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.41:243][748]MapCheck: Warning: SM_Modern_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.41:243][748]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 1.124ms to complete.
+[2021.01.23-02.19.41:266][748]LogEditorBuildUtils: Build time 0:05
+[2021.01.23-02.19.41:337][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.01.23-02.19.42:751][825]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-02.19.42:768][825]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-02.19.43:965][911]Job is a success!
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:      Bricks at Level
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2021.01.23-02.19.44:040][912]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2021.01.23-02.19.44:109][912]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2021.01.23-02.19.44:109][912]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2021.01.23-02.19.44:109][912]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2021.01.23-02.19.44:110][912]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2021.01.23-02.19.44:110][912]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 64X256)
+[2021.01.23-02.19.44:110][912]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 512X128)
+[2021.01.23-02.19.44:120][912]LogStaticLightingSystem: NewMap_BuiltData storing lightmap data for 8 meshes in 2 LightmapResourceClusters (4.0 Meshes per cluster).
+[2021.01.23-02.19.44:158][912]Lightmass on DESKTOP-KH48G98: 2.29 sec total, 92 ms importing, 33 ms setup, 1.43 sec photons, 681 ms processing, 0 ms extra exporting [43/43 mappings]. Threads: 8.83 sec total, 465 ms processing.
+[2021.01.23-02.19.44:162][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.01.23-02.19.44:170][912]LogStaticLightingSystem: Illumination: 7.56 sec (32 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2021.01.23-02.19.44:171][912]LogStaticLightingSystem: Lightmap texture memory:  1.0 MB (0.5 MB streaming, 0.5 MB non-streaming), 4 textures
+[2021.01.23-02.19.44:171][912]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.3 MB streaming, 0.1 MB non-streaming), 2 textures
+[2021.01.23-02.19.45:149][912]DumpUnbuiltLightIteractions
+[2021.01.23-02.19.45:149][912]Lights with unbuilt interactions: 0
+[2021.01.23-02.19.45:149][912]
+[2021.01.23-02.19.45:149][912]Primitives with unbuilt interactions: 0
+[2021.01.23-02.19.45:253][913]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.01.23-02.19.45:253][913]MapCheck: New page: NewMap - Jan 22, 2021, 4:19:45 PM
+[2021.01.23-02.19.45:254][913]MapCheck: Warning: SM_Modern_Bed_2 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.45:254][913]MapCheck: Warning: SM_Modern_Sofa_8 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.45:254][913]MapCheck: Warning: SM_Coffee_Table_17 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.45:254][913]MapCheck: Warning: SM_Modern_Chair_23 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.45:254][913]MapCheck: Warning: SM_Modern_Chair_2 Static mesh actor has NULL StaticMesh property 
+[2021.01.23-02.19.45:255][913]MapCheck: Map check complete: 0 Error(s), 5 Warning(s), took 1.17ms to complete.
+[2021.01.23-02.19.46:185][977]Candidate modules for hot reload:
+[2021.01.23-02.19.46:185][977]  BuildingEscape
+[2021.01.23-02.19.46:185][977]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3168 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-02.19.46:193][977]Warning: Starting HotReload took  0.0s.
+[2021.01.23-02.19.54:651][602]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 4:19:54 PM
+[2021.01.23-02.19.54:651][602]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-02.19.54:651][602]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-02.19.54:651][602]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-02.19.54:652][602]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 5.0267047 seconds
+[2021.01.23-02.19.54:652][602]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-02.19.54:652][602]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-02.19.54:652][602]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-02.19.54:652][602]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.23-02.19.54:652][602]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.23-02.19.54:652][602]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-3168.lib
+[2021.01.23-02.19.54:652][602]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3168.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3168.exp
+[2021.01.23-02.19.54:653][602]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-3168.dll
+[2021.01.23-02.19.54:653][602]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3168.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3168.suppressed.exp
+[2021.01.23-02.19.54:653][602]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-02.19.54:653][602]CompilerResultsLog: Total time in Parallel executor: 1.67 seconds
+[2021.01.23-02.19.54:653][602]CompilerResultsLog: Total execution time: 8.37 seconds
+[2021.01.23-02.19.54:654][602]LogMainFrame: MainFrame: Module compiling took 8.482 seconds
+[2021.01.23-02.19.54:685][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2021.01.23-02.19.54:685][602]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-02.19.54:738][602]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-02.19.54:739][602]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.01.23-02.19.54:746][602]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-02.19.54:812][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.01.23-02.19.54:812][602]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-02.19.54:828][602]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-02.19.54:828][602]Display: HotReload took  8.7s.
+[2021.01.23-02.19.57:246][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.23-02.19.57:369][775]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-02.19.57:385][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.19.57:386][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-02.19.57:386][775]PIE: New page: PIE session: NewMap (Jan 22, 2021, 4:19:57 PM)
+[2021.01.23-02.19.57:386][775]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-02.19.57:425][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037968s)
+[2021.01.23-02.19.57:426][775]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-02.19.57:426][775]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2021.01.23-02.19.57:426][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.038997s)
+[2021.01.23-02.19.57:499][775]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2021.01.23-02.19.57:517][775]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.19.57:526][775]LogInit: FAudioDevice initialized.
+[2021.01.23-02.19.57:553][775]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-02.19.57:554][775]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-21.19.57
+[2021.01.23-02.19.57:554][775]LogWorld: Bringing up level for play took: 0.001015
+[2021.01.23-02.19.57:566][775]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.558
+[2021.01.23-02.19.57:566][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.02:125][183]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:135][184]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:144][185]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:154][186]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:164][187]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:174][188]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:184][189]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:194][190]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:204][191]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:214][192]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:223][193]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:233][194]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:243][195]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:254][196]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:264][197]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:274][198]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:282][199]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:292][200]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:302][201]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:312][202]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:322][203]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:331][204]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:341][205]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:350][206]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:360][207]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:370][208]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:379][209]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:389][210]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:399][211]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:409][212]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:418][213]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:428][214]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:438][215]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:448][216]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:458][217]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:467][218]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:477][219]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:486][220]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:496][221]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:506][222]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:515][223]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:525][224]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:534][225]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:544][226]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:554][227]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:563][228]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:573][229]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:582][230]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:592][231]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:602][232]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:611][233]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:621][234]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:631][235]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:641][236]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:650][237]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:660][238]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:669][239]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:679][240]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:688][241]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:698][242]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:708][243]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:717][244]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:727][245]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:737][246]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:746][247]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:755][248]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:765][249]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:775][250]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:784][251]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:795][252]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:804][253]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:814][254]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:824][255]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:833][256]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:843][257]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:853][258]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:863][259]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:873][260]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:883][261]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:893][262]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:903][263]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.02:912][264]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.04:369][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.04:369][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-02.20.04:405][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-02.20.04:405][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.04:448][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-02.20.04:470][427]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.01.23-02.20.04:488][428]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2021.01.23-02.20.10:681][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-02.20.13:885][797]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-02.20.13:898][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.13:899][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-02.20.13:899][797]PIE: New page: PIE session: NewMap (Jan 22, 2021, 4:20:13 PM)
+[2021.01.23-02.20.13:899][797]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-02.20.13:906][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006549s)
+[2021.01.23-02.20.13:906][797]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-02.20.13:906][797]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2021.01.23-02.20.13:906][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.007427s)
+[2021.01.23-02.20.13:936][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.01.23-02.20.13:953][797]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.20.13:962][797]LogInit: FAudioDevice initialized.
+[2021.01.23-02.20.13:988][797]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-02.20.13:989][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-21.20.13
+[2021.01.23-02.20.13:989][797]LogWorld: Bringing up level for play took: 0.001054
+[2021.01.23-02.20.14:003][797]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.122
+[2021.01.23-02.20.14:003][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.14:873][887]LogTemp: Warning: Grabber Pressed
+[2021.01.23-02.20.15:529][956]LogTemp: Warning: Grabber Released
+[2021.01.23-02.20.15:992][  5]LogTemp: Warning: Grabber Pressed
+[2021.01.23-02.20.16:385][ 47]LogTemp: Warning: Grabber Released
+[2021.01.23-02.20.16:863][ 98]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:871][ 99]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:881][100]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:891][101]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:901][102]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:910][103]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:920][104]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:931][105]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:941][106]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:951][107]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:961][108]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:971][109]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:981][110]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.16:991][111]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:001][112]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:011][113]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:021][114]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:031][115]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:041][116]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:051][117]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:061][118]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:070][119]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:080][120]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:090][121]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:100][122]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:110][123]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:119][124]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:129][125]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:139][126]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:149][127]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:159][128]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:169][129]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:179][130]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:189][131]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:199][132]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:210][133]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:219][134]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:230][135]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:240][136]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:250][137]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:259][138]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:270][139]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:279][140]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:289][141]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:300][142]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:310][143]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:319][144]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:330][145]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:339][146]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:349][147]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:359][148]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:369][149]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:378][150]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:389][151]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:398][152]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:408][153]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:418][154]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:427][155]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:437][156]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:448][157]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:458][158]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:467][159]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:477][160]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:487][161]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:497][162]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:507][163]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:517][164]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:527][165]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:536][166]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:546][167]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:556][168]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:566][169]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:576][170]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:586][171]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:596][172]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:606][173]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:616][174]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:626][175]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:636][176]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:646][177]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:656][178]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:666][179]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:676][180]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:686][181]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:696][182]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:707][183]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:716][184]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:726][185]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:736][186]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:747][187]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:757][188]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:767][189]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:776][190]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:786][191]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:796][192]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:806][193]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:815][194]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:825][195]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:835][196]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:845][197]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:856][198]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:865][199]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:874][200]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:884][201]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:894][202]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:904][203]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:913][204]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:923][205]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:932][206]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:942][207]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:952][208]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:962][209]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:970][210]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:981][211]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.17:991][212]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:000][213]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:010][214]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:020][215]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:029][216]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:039][217]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:049][218]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:059][219]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:068][220]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:078][221]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:087][222]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:097][223]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:107][224]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:116][225]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:126][226]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:136][227]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:146][228]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:156][229]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:165][230]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:175][231]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:184][232]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:220][233]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:223][234]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:232][235]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:240][236]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:248][237]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:257][238]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:265][239]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:273][240]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:282][241]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:292][242]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:301][243]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:311][244]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:320][245]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:329][246]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:339][247]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:349][248]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:359][249]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:368][250]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:377][251]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:386][252]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:396][253]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-02.20.18:397][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.18:397][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-02.20.18:432][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-02.20.18:432][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-02.20.18:471][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-02.20.18:475][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.01.23-02.20.18:503][254]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2021.01.23-02.20.43:839][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.01.23-02.20.44:120][423]LogSavePackage: Moving '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/NewMap_Auto7019B72B54CCCFFAA514E5DB73AA4CB8D.tmp' to '../../../../../../Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/Saved/Autosaves/Game/Levels/NewMap_Auto7.umap'
+[2021.01.23-02.20.44:123][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap' took 0.314
+[2021.01.23-02.20.44:123][423]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.314
+[2021.01.23-02.26.58:554][541]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.26.58:554][541]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.29.03:117][913]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.29.04:704][918]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.29.05:250][919]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.29.05:250][919]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.30.44:470][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.01.23-02.30.44:470][216]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap' took 0.034
+[2021.01.23-02.35.25:545][ 56]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.35.25:546][ 56]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.35.25:845][ 57]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.40.43:859][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.01.23-02.40.43:859][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap' took 0.032
+[2021.01.23-02.46.03:273][967]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.46.03:529][968]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.46.04:883][972]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.46.05:245][973]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{307326d0-29e3-471b-bce5-df4b397e7e36} was removed. Shutting down audio device.
+[2021.01.23-02.46.05:245][973]LogInit: XAudio2 using 'Realtek Digital Output (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.46.05:685][974]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-02.47.54:452][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-02.50.44:481][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.01.23-02.50.44:481][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap' took 0.042
+[2021.01.23-03.00.44:891][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.01.23-03.00.44:891][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap' took 0.040
+[2021.01.23-03.01.00:963][854]Candidate modules for hot reload:
+[2021.01.23-03.01.00:964][854]  BuildingEscape
+[2021.01.23-03.01.00:964][854]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,3247 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-03.01.00:973][854]Warning: Starting HotReload took  0.0s.
+[2021.01.23-03.01.10:918][564]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 5:01:10 PM
+[2021.01.23-03.01.10:918][564]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-03.01.10:918][564]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-03.01.10:918][564]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-03.01.10:919][564]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 5.6717481 seconds
+[2021.01.23-03.01.10:919][564]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-03.01.10:919][564]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-03.01.10:919][564]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-03.01.10:919][564]CompilerResultsLog:   [1/5] Grabber.gen.cpp
+[2021.01.23-03.01.10:919][564]CompilerResultsLog:   [2/5] Grabber.cpp
+[2021.01.23-03.01.10:919][564]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-3247.lib
+[2021.01.23-03.01.10:920][564]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3247.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3247.exp
+[2021.01.23-03.01.10:920][564]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-3247.dll
+[2021.01.23-03.01.10:920][564]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3247.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-3247.suppressed.exp
+[2021.01.23-03.01.10:920][564]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-03.01.10:920][564]CompilerResultsLog: Total time in Parallel executor: 2.13 seconds
+[2021.01.23-03.01.10:921][564]CompilerResultsLog: Total execution time: 9.86 seconds
+[2021.01.23-03.01.10:921][564]LogMainFrame: MainFrame: Module compiling took 9.970 seconds
+[2021.01.23-03.01.10:951][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2021.01.23-03.01.10:951][564]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-03.01.10:999][564]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-03.01.11:001][564]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2021.01.23-03.01.11:007][564]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-03.01.11:072][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.01.23-03.01.11:072][564]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-03.01.11:106][564]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-03.01.11:106][564]Display: HotReload took 10.2s.
+[2021.01.23-03.01.14:059][758]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-03.01.14:076][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.14:076][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-03.01.14:076][758]PIE: New page: PIE session: NewMap (Jan 22, 2021, 5:01:14 PM)
+[2021.01.23-03.01.14:076][758]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-03.01.14:083][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007157s)
+[2021.01.23-03.01.14:084][758]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-03.01.14:084][758]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2021.01.23-03.01.14:084][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.008043s)
+[2021.01.23-03.01.14:162][758]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2021.01.23-03.01.14:180][758]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-03.01.14:189][758]LogInit: FAudioDevice initialized.
+[2021.01.23-03.01.14:218][758]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-03.01.14:220][758]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-22.01.14
+[2021.01.23-03.01.14:220][758]LogWorld: Bringing up level for play took: 0.001198
+[2021.01.23-03.01.14:233][758]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.773
+[2021.01.23-03.01.14:233][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.17:566][ 53]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:577][ 54]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:588][ 55]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:599][ 56]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:611][ 57]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:624][ 58]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:636][ 59]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:649][ 60]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:661][ 61]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:673][ 62]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:685][ 63]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:697][ 64]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:709][ 65]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:721][ 66]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.17:733][ 67]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:356][131]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:367][132]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:376][133]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:385][134]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:394][135]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:403][136]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:413][137]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:421][138]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:431][139]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:441][140]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:449][141]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:459][142]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:468][143]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:478][144]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:487][145]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:497][146]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:506][147]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:515][148]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:525][149]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:535][150]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:544][151]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:553][152]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:563][153]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:572][154]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:581][155]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:591][156]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:600][157]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:611][158]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:621][159]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:629][160]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:639][161]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:647][162]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:657][163]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:666][164]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:676][165]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:685][166]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:694][167]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:704][168]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:713][169]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:723][170]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:732][171]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:741][172]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:751][173]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:760][174]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:770][175]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:779][176]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:789][177]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:798][178]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:808][179]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:817][180]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:826][181]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:836][182]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:845][183]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:855][184]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:863][185]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:873][186]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:882][187]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:892][188]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:902][189]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:911][190]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:920][191]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:930][192]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:939][193]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:949][194]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:958][195]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:967][196]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:977][197]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:986][198]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.18:996][199]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:004][200]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:014][201]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:023][202]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:033][203]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:043][204]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:052][205]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:061][206]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:071][207]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:080][208]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:090][209]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:099][210]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:108][211]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:118][212]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:127][213]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:137][214]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:146][215]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:155][216]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:164][217]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:174][218]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:183][219]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:193][220]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:202][221]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:212][222]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:221][223]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:231][224]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:241][225]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:250][226]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:260][227]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:271][228]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:279][229]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:290][230]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:298][231]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:308][232]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:318][233]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:325][234]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:336][235]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:344][236]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:355][237]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:365][238]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:375][239]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:383][240]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:392][241]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:401][242]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:410][243]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:420][244]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:429][245]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:438][246]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:447][247]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:456][248]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:466][249]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:475][250]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:484][251]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:493][252]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:503][253]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:513][254]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:522][255]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:532][256]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:541][257]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:550][258]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:560][259]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:569][260]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:579][261]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:588][262]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:598][263]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:607][264]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:617][265]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:628][266]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:637][267]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:646][268]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:654][269]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:664][270]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:673][271]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:682][272]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:693][273]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:703][274]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:712][275]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:722][276]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:731][277]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:741][278]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:750][279]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:759][280]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:768][281]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:778][282]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:787][283]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:797][284]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:806][285]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:816][286]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:825][287]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:835][288]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:842][289]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:852][290]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:861][291]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:871][292]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:880][293]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:890][294]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:898][295]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:908][296]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:918][297]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:927][298]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:936][299]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:946][300]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:955][301]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:964][302]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:974][303]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:983][304]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.19:993][305]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:002][306]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:012][307]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:021][308]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:030][309]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:040][310]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:049][311]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:058][312]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:068][313]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:077][314]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:087][315]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:097][316]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:106][317]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:115][318]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.20:125][319]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.21:796][510]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.22:414][581]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.22:702][614]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.22:972][645]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:085][658]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:171][668]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:293][682]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:352][689]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:430][698]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:526][709]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:577][715]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:707][730]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:733][733]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:810][742]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.23:837][745]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.23:984][762]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.24:019][766]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.24:131][779]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.24:234][791]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.01.24:355][805]LogTemp: Warning: Grabber Released
+[2021.01.23-03.01.24:450][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.24:451][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.01.24:488][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-03.01.24:488][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.24:536][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.01.24:558][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.01.23-03.01.24:584][817]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2021.01.23-03.01.30:453][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-03.01.31:663][ 26]Candidate modules for hot reload:
+[2021.01.23-03.01.31:663][ 26]  BuildingEscape
+[2021.01.23-03.01.31:663][ 26]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,6213 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-03.01.31:671][ 26]Warning: Starting HotReload took  0.0s.
+[2021.01.23-03.01.33:696][187]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 5:01:33 PM
+[2021.01.23-03.01.33:696][187]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-03.01.33:696][187]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-03.01.33:697][187]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-03.01.33:697][187]LogMainFrame: MainFrame: Module compiling took 2.046 seconds
+[2021.01.23-03.01.33:697][187]Warning: HotReload failed, recompile failed
+[2021.01.23-03.01.34:880][283]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-03.01.34:893][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.34:893][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-03.01.34:893][283]PIE: New page: PIE session: NewMap (Jan 22, 2021, 5:01:34 PM)
+[2021.01.23-03.01.34:893][283]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-03.01.34:900][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006245s)
+[2021.01.23-03.01.34:900][283]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-03.01.34:901][283]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2021.01.23-03.01.34:901][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.007337s)
+[2021.01.23-03.01.34:930][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.01.23-03.01.34:947][283]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-03.01.34:956][283]LogInit: FAudioDevice initialized.
+[2021.01.23-03.01.34:983][283]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-03.01.34:984][283]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-22.01.34
+[2021.01.23-03.01.34:985][283]LogWorld: Bringing up level for play took: 0.001125
+[2021.01.23-03.01.34:998][283]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap -0.008
+[2021.01.23-03.01.34:998][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.42:749][950]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:761][951]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:773][952]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:784][953]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:796][954]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:808][955]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.42:820][956]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.01.44:679][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.44:679][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.01.44:720][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-03.01.44:720][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.01.44:757][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.01.44:761][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.01.23-03.01.44:785][118]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2021.01.23-03.03.30:162][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.23-03.03.31:803][804]Candidate modules for hot reload:
+[2021.01.23-03.03.31:804][804]  BuildingEscape
+[2021.01.23-03.03.31:804][804]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,2785 Win64 Development -TargetType=Editor -Project="C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject" "C:/Users/Mirza/Unreal-Learning-Demo/Unreal-Learning-Demo/Hameds Code/Section 3/BuildingEscape2/BuildingEscape.uproject"  -IgnoreJunk]
+[2021.01.23-03.03.31:812][804]Warning: Starting HotReload took  0.0s.
+[2021.01.23-03.03.40:034][403]CompilerResultsLog: New page: Compilation - Jan 22, 2021, 5:03:40 PM
+[2021.01.23-03.03.40:034][403]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.01.23-03.03.40:034][403]CompilerResultsLog: Parsing headers for BuildingEscapeEditor
+[2021.01.23-03.03.40:034][403]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\BuildingEscape.uproject" "C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2021.01.23-03.03.40:035][403]CompilerResultsLog: Reflection code generated for BuildingEscapeEditor in 4.9556303 seconds
+[2021.01.23-03.03.40:035][403]CompilerResultsLog: Error: C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Source\BuildingEscape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.01.23-03.03.40:035][403]CompilerResultsLog: Using Visual Studio 2019 14.28.29333 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.23-03.03.40:035][403]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.23-03.03.40:035][403]CompilerResultsLog:   [1/5] Grabber.cpp
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape-2785.lib
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2785.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2785.exp
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape-2785.dll
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:      Creating library C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2785.suppressed.lib and object C:\Users\Mirza\Unreal-Learning-Demo\Unreal-Learning-Demo\Hameds Code\Section 3\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-2785.suppressed.exp
+[2021.01.23-03.03.40:036][403]CompilerResultsLog:   [5/5] BuildingEscapeEditor.target
+[2021.01.23-03.03.40:037][403]CompilerResultsLog: Total time in Parallel executor: 1.47 seconds
+[2021.01.23-03.03.40:037][403]CompilerResultsLog: Total execution time: 8.13 seconds
+[2021.01.23-03.03.40:037][403]LogMainFrame: MainFrame: Module compiling took 8.247 seconds
+[2021.01.23-03.03.40:068][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.01.23-03.03.40:068][403]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.01.23-03.03.40:118][403]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.01.23-03.03.40:118][403]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2021.01.23-03.03.40:125][403]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.23-03.03.40:191][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.23-03.03.40:191][403]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.01.23-03.03.40:207][403]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2737 classes and 663 folders.
+[2021.01.23-03.03.40:207][403]Display: HotReload took  8.4s.
+[2021.01.23-03.03.41:344][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.23-03.03.41:438][480]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.23-03.03.41:454][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.03.41:454][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.23-03.03.41:454][480]PIE: New page: PIE session: NewMap (Jan 22, 2021, 5:03:41 PM)
+[2021.01.23-03.03.41:454][480]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2021.01.23-03.03.41:462][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008230s)
+[2021.01.23-03.03.41:463][480]LogAIModule: Creating AISystem for world NewMap
+[2021.01.23-03.03.41:463][480]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2021.01.23-03.03.41:463][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.009100s)
+[2021.01.23-03.03.41:536][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.01.23-03.03.41:553][480]LogInit: XAudio2 using 'Headphones (AKG N60NC Wireless Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.23-03.03.41:562][480]LogInit: FAudioDevice initialized.
+[2021.01.23-03.03.41:591][480]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.01.23-03.03.41:592][480]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2021.01.22-22.03.41
+[2021.01.23-03.03.41:593][480]LogWorld: Bringing up level for play took: 0.001184
+[2021.01.23-03.03.41:605][480]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap 0.599
+[2021.01.23-03.03.41:605][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.03.46:502][905]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.46:502][905]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.46:760][926]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.47:271][973]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.47:272][973]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.47:542][  1]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.47:572][  4]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.47:572][  4]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.47:610][  8]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.47:855][ 33]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.47:855][ 33]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.48:098][ 58]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.48:449][ 94]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.48:449][ 94]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.48:568][106]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.49:016][152]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.49:016][152]LogTemp: Warning: Line trace has hit :Cube_2
+[2021.01.23-03.03.49:083][159]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.50:099][269]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.50:194][280]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.50:424][306]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.50:495][314]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.50:653][332]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.50:758][344]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.51:935][473]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.51:935][473]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.52:073][488]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.52:260][508]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.52:260][508]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.52:362][519]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.52:582][542]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.52:582][542]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.52:657][550]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.52:828][568]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.52:828][568]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.52:923][578]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.53:066][593]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.53:066][593]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.53:189][606]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.53:322][620]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.53:323][620]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.53:416][630]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.53:530][642]LogTemp: Warning: Grabber Pressed
+[2021.01.23-03.03.53:530][642]LogTemp: Warning: Line trace has hit :Sphere_2
+[2021.01.23-03.03.53:606][650]LogTemp: Warning: Grabber Released
+[2021.01.23-03.03.54:803][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.03.54:804][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.03.54:835][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.23-03.03.54:835][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/NewMap.NewMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap' with GeneratedClass '/Game/Levels/NewMap.NewMap_C' with ClassGeneratedBy '/Game/Levels/NewMap.NewMap:PersistentLevel.NewMap'
+[2021.01.23-03.03.54:880][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.23-03.03.54:901][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.01.23-03.03.54:927][789]LogPlayLevel: Display: Destroying online subsystem :Context_57
