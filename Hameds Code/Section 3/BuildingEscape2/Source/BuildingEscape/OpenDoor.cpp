@@ -30,6 +30,22 @@ void UOpenDoor::BeginPlay()
 	FindAudioComponent();
 }
 
+void UOpenDoor::FindPressurePlate()
+{
+	if(!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s has OpenDoor component but no PressurePlate!"), *GetOwner()->GetName());
+	}
+}
+void UOpenDoor::FindAudioComponent() 
+{
+	AudioComponent = GetOwner()->FindComponentByClass<UAudioComponent>();
+	if (!AudioComponent)
+	{
+		UE_LOG(LogTemp, Error, TEXT("%s missing audio component"), *GetOwner()->GetName());
+	}
+}
+
 // Called every frame
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
@@ -58,10 +74,10 @@ void UOpenDoor::OpenDoor(float DeltaTime)
 
 	CloseDoorSound = false;
 	if(!AudioComponent){return;}
-	if(!CloseDoorSound)
+	if(!OpenDoorSound)
 	{
 		AudioComponent->Play();
-		CloseDoorSound = true;
+		OpenDoorSound = true;
 	}
 }
 
@@ -74,10 +90,10 @@ void UOpenDoor::CloseDoor(float DeltaTime)
 
 	OpenDoorSound = false;
 	if(!AudioComponent){return;}
-	if(!OpenDoorSound)
+	if(!CloseDoorSound)
 	{ 
 		AudioComponent->Play();
-		OpenDoorSound = true;
+		CloseDoorSound = true;
 	}
 }
 
@@ -97,20 +113,5 @@ float UOpenDoor::TotalMassOfActors() const
 	}
 
 	return TotalMass;
-}
-void UOpenDoor::FindPressurePlate()
-{
-	if(!PressurePlate)
-	{
-		UE_LOG(LogTemp, Error, TEXT("%s has OpenDoor component but no PressurePlate!"), *GetOwner()->GetName());
-	}
-}
-void UOpenDoor::FindAudioComponent() 
-{
-	AudioComponent = GetOwner()->FindComponentByClass<UAudioComponent>();
-	if (!AudioComponent)
-	{
-		UE_LOG(LogTemp, Error, TEXT("%s missing audio component"), *GetOwner()->GetName());
-	}
 }
 
