@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 	BUILDINGESCAPE_API UClass* Z_Construct_UClass_UGrabber();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_BuildingEscape();
+	ENGINE_API UClass* Z_Construct_UClass_UInputComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UPhysicsHandleComponent_NoRegister();
 // End Cross Module References
 	void UGrabber::StaticRegisterNativesUGrabber()
 	{
@@ -31,6 +33,15 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InputComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InputComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PhysicsHandle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PhysicsHandle;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +57,24 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		{ "ModuleRelativePath", "Grabber.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber_Statics::NewProp_InputComponent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Grabber.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_InputComponent = { "InputComponent", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber, InputComponent), Z_Construct_UClass_UInputComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::NewProp_InputComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::NewProp_InputComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber_Statics::NewProp_PhysicsHandle_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Grabber.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_PhysicsHandle = { "PhysicsHandle", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber, PhysicsHandle), Z_Construct_UClass_UPhysicsHandleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::NewProp_PhysicsHandle_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::NewProp_PhysicsHandle_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabber_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_InputComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_PhysicsHandle,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGrabber_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGrabber>::IsAbstract,
 	};
@@ -55,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UGrabber_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::PropPointers),
 		0,
 		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::Class_MetaDataParams))
@@ -73,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 2914685396);
+	IMPLEMENT_CLASS(UGrabber, 4253731759);
 	template<> BUILDINGESCAPE_API UClass* StaticClass<UGrabber>()
 	{
 		return UGrabber::StaticClass();
